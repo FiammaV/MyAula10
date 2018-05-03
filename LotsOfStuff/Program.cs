@@ -47,6 +47,8 @@ namespace Aula10
                 Console.WriteLine(aThing);
             }
 
+            Console.WriteLine("The bag's value is: " + " " + p.BagOfStuff.Value);
+            Console.WriteLine("The bag's weight is: " + " " + p.BagOfStuff.Weight);
         }
     }
 }
