@@ -9,6 +9,10 @@
         /// <summary> Tipo de comida (propriedade read-only) </summary>
         public FoodType Type { get; }
 
+        public override string ToString() {
+            return Type.ToString() + " " + days + " days old";
+        }
+
         /// <summary> Propriedade Value, respeita o contrato com interface IValuable </summary>
         public float Value
         {
